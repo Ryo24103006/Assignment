@@ -58,7 +58,7 @@
             </header>
             <!-- header-area-end -->
             <!-- breadcrumbs-area-start -->
-            <jsp:include page="common/breadcrumbs-area.jsp"></jsp:include>
+        <jsp:include page="common/breadcrumbs-area.jsp"></jsp:include>
             <!-- breadcrumbs-area-end -->
             <!-- shop-main-area-start -->
             <div class="shop-main-area mb-70">
@@ -1371,21 +1371,21 @@
         <!-- shop-main-area-end -->
         <!-- footer-area-start -->
         <jsp:include page="common/footer-area.jsp"></jsp:include>
-        <!-- footer-area-end -->
-        <!-- Modal -->
-        <div class="modal fade" id="productModal" tabindex="-1" role="dialog">
-            <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">x</span></button>
-                    </div>
-                    <div class="modal-body">
-                        <div class="row">
-                            <div class="col-md-5 col-sm-5 col-xs-12">
-                                <div class="modal-tab">
-                                    <div class="product-details-large tab-content">
-                                        <div class="tab-pane active" id="image-1">
-                                            <img src="${pageContext.request.contextPath}/img/product/quickview-l4.jpg" alt="" />
+            <!-- footer-area-end -->
+            <!-- Modal -->
+            <div class="modal fade" id="productModal" tabindex="-1" role="dialog">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">x</span></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="row">
+                                <div class="col-md-5 col-sm-5 col-xs-12">
+                                    <div class="modal-tab">
+                                        <div class="product-details-large tab-content">
+                                            <div class="tab-pane active" id="image-1">
+                                                <img src="${pageContext.request.contextPath}/img/product/quickview-l4.jpg" alt="" />
                                         </div>
                                         <div class="tab-pane" id="image-2">
                                             <img src="${pageContext.request.contextPath}/img/product/quickview-l2.jpg" alt="" />
